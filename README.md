@@ -27,3 +27,8 @@ Complex words are words in the text that contain more than two syllables.
 We count the number of Syllables in each word of the text by counting the vowels present in each word. We also handle some exceptions like words ending with "es","ed" by not counting them as a syllable.
 
 To calculate Personal Pronouns mentioned in the text, we use regex to find the counts of the words - “I,” “we,” “my,” “ours,” and “us”. Special care is taken so that the country name US is not included in the list.
+
+
+beautifulsoup is used for extracting text. 
+a list of urls is given in the input file. Changes should be made according to the html layout of the target site. 
+Various scores are then calculated and the output is exported to an excel file. 
